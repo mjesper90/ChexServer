@@ -1,0 +1,29 @@
+{
+  "name": "chexserver",
+  "version": "1.0.0",
+  "description": "The backend of chex",
+  "main": "src/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "bufferutil": "^4.0.2",
+    "nodemon": "^2.0.6",
+    "protobufjs": "^6.10.2",
+    "socket.io": "^3.0.3",
+    "typescript": "^4.1.2",
+    "utf-8-validate": "^5.0.3"
+  },
+  "scripts": {
+    "compile": "tsc src/index.ts && node src/index.js",
+    "dev": "nodemon -e ts  --exec \"npm run compile\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjesper90/ChexServer.git"
+  },
+  "author": "JJ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mjesper90/ChexServer/issues"
+  },
+  "homepage": "https://github.com/mjesper90/ChexServer#readme"
+}
