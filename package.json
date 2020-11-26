@@ -13,7 +13,7 @@
     "utf-8-validate": "^5.0.3"
   },
   "scripts": {
-    "compile": "tsc src/index.ts && node src/index.js",
+    "compile": "tsc src/index.ts src/libs/hexlib.ts && node src/index.js",
     "dev": "nodemon -e ts  --exec \"npm run compile\""
   },
   "repository": {

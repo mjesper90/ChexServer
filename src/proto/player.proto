@@ -1,0 +1,9 @@
+package playerpackage;
+syntax = "proto3";
+ 
+message ProtoPlayer {
+    string client_id = 1;
+    string server_id = 2;
+    string client_username = 3;
+    string client_password = 4;
+}
